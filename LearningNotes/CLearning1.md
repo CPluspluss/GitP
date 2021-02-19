@@ -8,7 +8,7 @@
         int y;
     };
 ```
-(2) How to usr struct
+(2) How to use struct
 ```C
     int main(int argc, char const *argv[]){
         struct date day; //(Normal creat)
