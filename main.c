@@ -49,7 +49,7 @@
 
 
 int main(int argc, char const *argv[]){
-    struct point y={0,0};   
+    point y={0,0};   
     getStruct(&y);
     printStruct(y);
 
