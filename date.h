@@ -1,8 +1,13 @@
 #include<stdbool.h>
+#include<stdio.h>
 struct date{
     int month;
     int day;
     int year;
+};
+struct point{
+    int x;
+    int y;
 };
 bool isLeap(struct date day);
 int datetime(struct date day)
@@ -28,4 +33,13 @@ bool isLeap(struct date day)
         leap = true;
     }
     return leap;
+}
+void getStruct(struct point *p)
+{
+    scanf("%d %d",&(p->x),&(p->y));
+    printf("%d %d\n",p->x,p->y);
+}
+void printStruct(struct point a)
+{
+    printf("%d %d",a.x,a.y);
 }
