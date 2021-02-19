@@ -17,7 +17,7 @@
     }
 ```
 (3) you can always usr struct with **[pointer](https://baike.baidu.com/item/%E6%8C%87%E9%92%88/2878304?fr=aladdin)**  
-* You can see an example which is in the file named **[main.c](/mian.c)**  
+* You can see an example which is in the file named **[main.c](../main.c)**  
 
 (4) typedef
 ```C
