@@ -1,5 +1,6 @@
 #include<stdbool.h>
 #include<stdio.h>
+int gAll = 12;
 typedef struct {
     int month;
     int day;
@@ -10,6 +11,10 @@ typedef struct {
     int y;
 }point;
 bool isLeap(date day);
+double max(double a,double b)
+{
+    return a>b?a:b;
+}
 int datetime(date day)
 {
     int days;
