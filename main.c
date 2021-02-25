@@ -52,6 +52,7 @@ int main(int argc, char const *argv[]){
     point y={0,0};   
     getStruct(&y);
     printStruct(y);
+    
 
 }
 
