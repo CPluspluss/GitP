@@ -1,5 +1,8 @@
 #include<stdio.h>
 #include"date.h"
+#define PRT1(x) (x)*54.9282
+#define PRT2(x) (x*54.9282)
+
 
 // int main(int argc, char const *argv[])
 // {
@@ -48,11 +51,25 @@
 // }
 
 
-int main(int argc, char const *argv[]){
-    point y={0,0};   
-    getStruct(&y);
-    printStruct(y);
+// <<<<<<< HEAD
+// int main(int argc, char const *argv[]){
+//     point y={0,0};   
+//     getStruct(&y);
+//     printStruct(y);
     
+// =======
+// >>>>>>> bc4c499a3e3a3db49ae609e3f1cb9680263b841e
+
+// int main(int argc, char const *argv[]){
+//     point y={0,0};   
+//     getStruct(&y);
+//     printStruct(y);
+// }
+
+int main(int argc, char const *argv[])
+{
+    printf("%f\n",PRT1(5));
+    printf("%f\n",PRT2(5));
+    printf("%d",gAll);
 
 }
-
