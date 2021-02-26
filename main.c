@@ -61,15 +61,40 @@
 // >>>>>>> bc4c499a3e3a3db49ae609e3f1cb9680263b841e
 
 // int main(int argc, char const *argv[]){
-//     point y={0,0};   
-//     getStruct(&y);
+//     point y={0,0};  
+//     getStruct(&y); //结构体传入内存地址（指针）
 //     printStruct(y);
 // }
 
+// int main(int argc, char const *argv[])
+// {
+//     printf("%f\n",PRT1(5));
+//     printf("%f\n",PRT2(5));
+//     printf("%d",gAll);
+// }
+
+//联合体
+// union date{
+//     int i;
+//     char a;
+//     char k[sizeof(int)];
+// }elt1,elt2;
+// typedef int IN;
+// int main(int argc, char const *argv[]){
+//     IN sb = 1;
+//     elt1.i = 2;
+//     elt1.a = 'c';
+//     elt2.i = 4;
+//     printf("%d,%d\n",elt1.i,elt2.i); //输出后可以看到elt.i的值发生了改变
+// }
+
+//全局变量
+int ggAll = 12;
 int main(int argc, char const *argv[])
 {
-    printf("%f\n",PRT1(5));
-    printf("%f\n",PRT2(5));
-    printf("%d",gAll);
+    static int a = 12;
+    printf("%p\n%p",&ggAll,&a);
 
 }
+
+
