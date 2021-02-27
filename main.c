@@ -13,7 +13,6 @@
 //         tommorow.day = today.day+1;
 //         tommorow.month = today.month;
 //         tommorow.year = today.year;
-
 //     }else if(today.month == 12)
 //     {
 //         tommorow.month = 1;
@@ -41,11 +40,8 @@
 //         tommorow.month = today.month+1;
 //         tommorow.year = today.year;
 //     }
-
 //     printf("The next day is %02i/%02i/%.2i\n"
 //     ,tommorow.day,tommorow.month,tommorow.year);
-
-
 //     return 0;
 //     return 0;
 // }
