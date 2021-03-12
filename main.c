@@ -1,7 +1,8 @@
 #include<stdio.h>
-#include"date.h"
-#define PRT1(x) (x)*54.9282
-#define PRT2(x) (x*54.9282)
+// #include"date.h"
+// #define PRT1(x) (x)*54.9282
+// #define PRT2(x) (x*54.9282)
+#define number 500
 
 // int main(int argc, char const *argv[])
 // {
@@ -82,28 +83,30 @@
 // }
 
 //全局变量
-int ggAll = 12;
-int f(int a){
-    static int b=0;
-    b += a;
-    return b;
-}
-int main(int argc, char const *argv[])
-{
-    static int a = 12;
-    // printf("%p\n%p\n",&ggAll,&a);
-    printf("%d\n",f(a));
-    printf("%d\n",f(a));
-    printf("%d\n",f(a));
-    printf("%d\n",f(a));
-    
-    
-}
+// int ggAll = 12;
+// int f(int a){
+//     static int b=0;
+//     b += a;
+//     return b;
+// }
+
+// int main(int argc, char const *argv[])
+// {
+//     static int a = 12;
+//     // printf("%p\n%p\n",&ggAll,&a);
+//     printf("%d\n",f(a));
+//     printf("%d\n",f(a));
+//     printf("%d\n",f(a));
+//     printf("%d\n",f(a));
+// }
 
 
 int main(){
-    FILE* fp=fopen("111","r");
-    if(fp){
-        f
-    })
+    FILE* fp = NULL;
+    fp = fopen("~/GitP/sum.txt","r");
+    char buffer[number];
+    fscanf(fp,"%s",buffer);
+    printf("%s",buffer);
+
+
 }
