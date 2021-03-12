@@ -3,7 +3,6 @@
 #define PRT1(x) (x)*54.9282
 #define PRT2(x) (x*54.9282)
 
-
 // int main(int argc, char const *argv[])
 // {
 //     struct date today,tommorow;
@@ -46,13 +45,11 @@
 //     return 0;
 // }
 
-
 // <<<<<<< HEAD
 // int main(int argc, char const *argv[]){
 //     point y={0,0};   
 //     getStruct(&y);
 //     printStruct(y);
-    
 // =======
 // >>>>>>> bc4c499a3e3a3db49ae609e3f1cb9680263b841e
 
@@ -86,11 +83,27 @@
 
 //全局变量
 int ggAll = 12;
+int f(int a){
+    static int b=0;
+    b += a;
+    return b;
+}
 int main(int argc, char const *argv[])
 {
     static int a = 12;
-    printf("%p\n%p",&ggAll,&a);
-
+    // printf("%p\n%p\n",&ggAll,&a);
+    printf("%d\n",f(a));
+    printf("%d\n",f(a));
+    printf("%d\n",f(a));
+    printf("%d\n",f(a));
+    
+    
 }
 
 
+int main(){
+    FILE* fp=fopen("111","r");
+    if(fp){
+        f
+    })
+}
