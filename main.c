@@ -82,7 +82,7 @@
 //     printf("%d,%d\n",elt1.i,elt2.i); //输出后可以看到elt.i的值发生了改变
 // }
 
-//全局变量
+// 全局变量
 // int ggAll = 12;
 // int f(int a){
 //     static int b=0;
@@ -103,10 +103,10 @@
 
 int main(){
     FILE* fp = NULL;
-    fp = fopen("~/GitP/sum.txt","r");
+    fp = fopen("sum.txt","r");
     char buffer[number];
     fscanf(fp,"%s",buffer);
-    printf("%s",buffer);
+    printf("%s\n",buffer);
 
 
 }
