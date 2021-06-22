@@ -93,8 +93,9 @@ int ggAll = 12;
 int main(int argc, char const *argv[])
 {
     static int a = 12;
-    printf("%p\n%p",&ggAll,&a);
-
+    printf("%p\n%p\n",&ggAll,&a);
+    printf("hello");
+    
 }
 
 
