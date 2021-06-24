@@ -1,0 +1,8 @@
+  File: main.c
+  Size: 2598      	Blocks: 8          IO Block: 4096   regular file
+Device: 812h/2066d	Inode: 4983915     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/   young)   Gid: ( 1000/   young)
+Access: 2021-03-13 08:05:56.544792925 +0800
+Modify: 2021-03-11 14:23:54.853838576 +0800
+Change: 2021-03-11 14:23:54.853838576 +0800
+ Birth: -

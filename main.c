@@ -1,8 +1,8 @@
 #include<stdio.h>
-#include"date.h"
-#define PRT1(x) (x)*54.9282
-#define PRT2(x) (x*54.9282)
-
+// #include"date.h"
+// #define PRT1(x) (x)*54.9282
+// #define PRT2(x) (x*54.9282)
+#define number 500
 
 // int main(int argc, char const *argv[])
 // {
@@ -13,7 +13,6 @@
 //         tommorow.day = today.day+1;
 //         tommorow.month = today.month;
 //         tommorow.year = today.year;
-
 //     }else if(today.month == 12)
 //     {
 //         tommorow.month = 1;
@@ -41,22 +40,17 @@
 //         tommorow.month = today.month+1;
 //         tommorow.year = today.year;
 //     }
-
 //     printf("The next day is %02i/%02i/%.2i\n"
 //     ,tommorow.day,tommorow.month,tommorow.year);
-
-
 //     return 0;
 //     return 0;
 // }
-
 
 // <<<<<<< HEAD
 // int main(int argc, char const *argv[]){
 //     point y={0,0};   
 //     getStruct(&y);
 //     printStruct(y);
-    
 // =======
 // >>>>>>> bc4c499a3e3a3db49ae609e3f1cb9680263b841e
 
@@ -88,14 +82,49 @@
 //     printf("%d,%d\n",elt1.i,elt2.i); //输出后可以看到elt.i的值发生了改变
 // }
 
+//<<<<<<< HEAD
 //全局变量
-int ggAll = 12;
-int main(int argc, char const *argv[])
-{
-    static int a = 12;
-    printf("%p\n%p\n",&ggAll,&a);
-    printf("hello");
+// int ggAll = 12;
+// int main(int argc, char const *argv[])
+// {
+//     static int a = 12;
+//     printf("%p\n%p\n",&ggAll,&a);
+//     printf("hello");
     
+// }
+//=======
+// 全局变量
+// int ggAll = 12;
+// int f(int a){
+//     static int b=0;
+//     b += a;
+//     return b;
+// }
+
+// int main(int argc, char const *argv[])
+// {
+//     static int a = 12;
+//     // printf("%p\n%p\n",&ggAll,&a);
+//     printf("%d\n",f(a));
+//     printf("%d\n",f(a));
+//     printf("%d\n",f(a));
+//     printf("%d\n",f(a));
+// }
+
+
+// int main(){
+//     FILE* fp = NULL;
+//     fp = fopen("sum.txt","r");
+//     char buffer[number];
+//     fscanf(fp,"%s",buffer);
+//     printf("%s\n",buffer);
+// >>>>>>> 9be28c884c79506970715a810dab338ecd07a524
+
+
+// }
+
+int main()
+{
+	int i = 5;
+    	printf("Hello %d",i);
 }
-
-
