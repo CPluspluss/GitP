@@ -3,6 +3,7 @@
 // #define PRT1(x) (x)*54.9282
 // #define PRT2(x) (x*54.9282)
 #define number 500
+#define hour 24
 
 // int main(int argc, char const *argv[])
 // {
@@ -121,7 +122,12 @@
 // >>>>>>> 9be28c884c79506970715a810dab338ecd07a524
 // }
 
+
+void test(int i)
+{
+    printf("%d",number);
+}
 int main(void)
 {
-    printf("Hello\n%d",number);
+    test(2);
 }
