@@ -119,12 +119,9 @@
 //     fscanf(fp,"%s",buffer);
 //     printf("%s\n",buffer);
 // >>>>>>> 9be28c884c79506970715a810dab338ecd07a524
-
-
 // }
 
-int main()
+int main(void)
 {
-	int i = 5;
-    	printf("Hello %d",i);
+    printf("Hello\n%d",number);
 }
