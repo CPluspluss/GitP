@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include"test.h"
 // #include"date.h"
 // #define PRT1(x) (x)*54.9282
 // #define PRT2(x) (x*54.9282)
@@ -123,11 +124,28 @@
 // }
 
 
-void test(int i)
+int main()
 {
-    printf("%d",number);
+int x[10];
+for(int i = 0; i<10 ;i++)
+{
+    scanf("%d",&x[i]);
 }
-int main(void)
-{
-    test(2);
+int v;
+for(int i=0;i<=10;i++)
+    {
+        for(int i=0;i<9;i++)
+        {
+            if(x[i]>x[i+1])
+            {
+                v = x[i];
+                x[i] = x[i+1];
+                x[i+1]=v;
+            }
+        }
+    }
+    for(int i=0;i<9;i++)
+    {
+        printf("%d ",x[i]);
+    }
 }
