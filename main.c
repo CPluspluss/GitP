@@ -5,7 +5,6 @@
 // #define PRT2(x) (x*54.9282)
 #define number 500
 #define hour 24
-
 // int main(int argc, char const *argv[])
 // {
 //     struct date today,tommorow;
@@ -31,7 +30,6 @@
 //         tommorow.day = today.day+1;
 //         tommorow.month = today.month;
 //         tommorow.year = today.year;
-
 //     }else if(today.month == 12)
 //     {
 //         tommorow.month = 1;
@@ -92,7 +90,6 @@
 //     static int a = 12;
 //     printf("%p\n%p\n",&ggAll,&a);
 //     printf("hello");
-    
 // }
 //=======
 // 全局变量
@@ -113,7 +110,6 @@
 //     printf("%d\n",f(a));
 // }
 
-
 // int main(){
 //     FILE* fp = NULL;
 //     fp = fopen("sum.txt","r");
@@ -123,29 +119,40 @@
 // >>>>>>> 9be28c884c79506970715a810dab338ecd07a524
 // }
 
+// int main()
+// {
+//     int opp;
+//     scanf("%d",&opp);
+// int x[opp];
+// for(int i = 0; i<10 ;i++)
+// {
+//     scanf("%d",&x[i]);
+// }
+// int v;
+// for(int i=0;i<=10;i++)
+//     {
+//         for(int i=0;i<9;i++)
+//         {
+//             if(x[i]>x[i+1])
+//             {
+//                 v = x[i];
+//                 x[i] = x[i+1];
+//                 x[i+1]=v;
+//             }
+//         }
+//     }
+//     for(int i=0;i<9;i++)
+//     {
+//         printf("%d ",x[i]);
+//     }
+//     printf("%d",op(2));
+// }
 
-int main()
+int main(void)
 {
-int x[10];
-for(int i = 0; i<10 ;i++)
-{
-    scanf("%d",&x[i]);
-}
-int v;
-for(int i=0;i<=10;i++)
-    {
-        for(int i=0;i<9;i++)
-        {
-            if(x[i]>x[i+1])
-            {
-                v = x[i];
-                x[i] = x[i+1];
-                x[i+1]=v;
-            }
-        }
-    }
-    for(int i=0;i<9;i++)
-    {
-        printf("%d ",x[i]);
-    }
+    int i = 2;
+    int *p;
+    *p = 2;
+    printf("%p\n",p);
+    printf("%d\n",*p);
 }
