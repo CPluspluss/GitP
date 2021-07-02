@@ -1,5 +1,5 @@
 #include<stdio.h>
-int op(int i)
+int op(int *p)
 {
     return 1;
 }

@@ -153,6 +153,7 @@ int main(void)
     int i = 2;
     int *p;
     *p = 2;
+    printf("%d\n",op(p));
     printf("%p\n",p);
     printf("%d\n",*p);
 }
